@@ -1525,8 +1525,7 @@ var Countries = (function () {
             while (total--) {
 
                 if (mockData[total].text.match(regex)) {
-                    result.push(mockData[total]
-                    });
+                    result.push(mockData[total]);
                 }
             }
 
