@@ -4,7 +4,7 @@ var Countries = (function () {
             "abr": "AN",
             "country": "Andorra",
             "capital": "Andorra la Vella",
-            "FIELD4": ""
+            "FIELD4":  ""
         },
         {
             "abr": "AE",
