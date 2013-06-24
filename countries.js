@@ -1524,7 +1524,7 @@ var Countries = (function () {
 
             while (total--) {
 
-                if (mockData[total].country.match(regex) || mockData[total].city.match(regex)) {
+                if (mockData[total].country.match(regex) || mockData[total].capital.match(regex)) {
                     result.push(mockData[total]);
                 }
             }
