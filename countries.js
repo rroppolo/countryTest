@@ -1,5 +1,5 @@
 var Countries = (function () {
-    var list = [
+    var mockData = [
         {
             "abr": "AN",
             "country": "Andorra",
