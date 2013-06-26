@@ -1553,7 +1553,7 @@ var Countries = (function () {
 }());
 
 $(function() {
-	   $.mockjax({url: '/cities', response: function(settings) {
+	   $.mockjax({url: '/countries', response: function(settings) {
 
             
             var result = Countries.paginatedSearch(settings.data.search, 
