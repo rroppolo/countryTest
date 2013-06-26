@@ -1537,7 +1537,7 @@ var Countries = (function () {
 
         paginatedSearch: function (search, pageSize, pageIndex) {
 
-            var result = Countries.search(search),
+            var result = search ?  Countries.search(search) : mockData,
                 total = result.length;
 
             result = result.slice(); // Clone the array.
@@ -1551,3 +1551,20 @@ var Countries = (function () {
         }
     }
 }());
+
+$(function() {
+	   $.mockjax({url: '/cities', response: function(settings) {
+
+            
+            var result = Countries.paginatedSearch(settings.data.search, 
+            									   settings.data.pageSize ,
+            									   settings.data.pageIndex);
+
+            this.responseText = {
+                data: result.data,
+                total: result.total
+            }
+         return this.responseText;   
+	   }	
+	   	});
+})
