@@ -3,9 +3,6 @@ var Countries = ( function() {
 			"country" : "Afghanistan",
 			"capital" : "Kabul"
 		}, {
-			"country" : "Åland",
-			"capital" : "Mariehamn"
-		}, {
 			"country" : "Albania",
 			"capital" : "Tirana"
 		}, {
@@ -543,9 +540,6 @@ var Countries = ( function() {
 			"country" : "Republic of the Congo",
 			"capital" : "Brazzaville"
 		}, {
-			"country" : "Réunion",
-			"capital" : "Saint-Denis"
-		}, {
 			"country" : "Romania",
 			"capital" : "Bucharest"
 		}, {
@@ -555,7 +549,7 @@ var Countries = ( function() {
 			"country" : "Rwanda",
 			"capital" : "Kigali"
 		}, {
-			"country" : "Saint Barthélemy",
+			"country" : "Saint Barthelemy",
 			"capital" : "Gustavia"
 		}, {
 			"country" : "Saint Helena",
@@ -581,9 +575,6 @@ var Countries = ( function() {
 		}, {
 			"country" : "San Marino",
 			"capital" : "San Marino"
-		}, {
-			"country" : "São Tomé and Príncipe",
-			"capital" : "Sao Tome"
 		}, {
 			"country" : "Saudi Arabia",
 			"capital" : "Riyadh"
